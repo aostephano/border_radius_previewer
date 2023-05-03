@@ -1,17 +1,19 @@
-# ProjectName
-
-<img src="img.url" alt="exemplo imagem" width="40%">
-
+# Border Radius Previewer
 
 > Flutter App using Provider AppState Pattern
 
-> Project Easy2Read Description
+<img src="https://i.imgur.com/DvvJsjV.png" alt="exemplo imagem" width="80%">
+<img src="https://i.imgur.com/SBYMZvy.png" alt="exemplo imagem" width="80%">
 
-###### Project idea 00 from [App Ideas Collection](https://github.com/florinpop17/app-ideas)
 
-## 🚀 Installing <ProjectName>
+> The border-radius property can have multiple values changed. Preview how the shape looks while changing these values.
 
-To install ProjectName, follow these steps:
+
+###### Project idea 02 from [App Ideas Collection](https://github.com/florinpop17/app-ideas)
+
+## 🚀 Installing <Border Radius Previewer>
+
+To install Border Radius Previewer, follow these steps:
 
 Inside the folder, type:
 
@@ -27,12 +29,13 @@ Windows:
 flutter run
 ```
 
-## ☕ Using <Bin2Dec>
+## ☕ Using <Border Radius Previewer>
 
-To use <ProjectName>, follow these steps:
+To use <Border Radius Previewer>, follow these steps:
 
 ```
-Type
+Use the slide to switch between 0-250 radius values. 
+In the second page you can see the values used in Radius.circular() method.
 ```
 
 ###### Template Sample from [Readme Template](https://github.com/iuricode/readme-template)

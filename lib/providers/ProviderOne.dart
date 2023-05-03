@@ -1,10 +1,16 @@
 import 'package:flutter/material.dart';
 
 class ProviderOne extends ChangeNotifier {
-  double allBorderValue = 0;
+  Map<String, double> borderValues = {
+    'topLeftBorderValue': 0,
+    'topRightBorderValue': 0,
+    'bottonLeftBorderValue': 0,
+    'bottonRightBorderValue': 0,
+  };
 
-  void changeAllBorderValue(double value) {
-    allBorderValue = value;
+  changeBorderValue(key, newValue) {
+    borderValues.update(key, (value) => newValue);
+    // debugPrint(borderValues.toString());
     notifyListeners();
   }
 }

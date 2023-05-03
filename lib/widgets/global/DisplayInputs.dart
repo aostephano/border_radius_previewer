@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-
-import 'AllBorderSlider.dart';
 import 'BorderSlider.dart';
 
 class DisplayInputs extends StatefulWidget {
@@ -15,10 +13,14 @@ class _DisplayInputsState extends State<DisplayInputs> {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Text("All Border Slider"),
-        AllBorderSlider(),
         Text("Top Left"),
-        BorderSlider(),
+        BorderSlider(posValue: 'topLeftBorderValue'),
+        Text("Top Right"),
+        BorderSlider(posValue: 'topRightBorderValue'),
+        Text("Botton Left"),
+        BorderSlider(posValue: 'bottonLeftBorderValue'),
+        Text("Botton Right"),
+        BorderSlider(posValue: 'bottonRightBorderValue'),
       ],
     );
   }

@@ -1,5 +1,6 @@
-import 'package:border_radius_previewer/pages/tabs/MyFirstScreen.dart';
-import 'package:border_radius_previewer/pages/tabs/MySecondScreen.dart';
+import 'package:border_radius_previewer/pages/tabs/PreviewerScreen.dart';
+import 'package:border_radius_previewer/pages/tabs/RadiusInfoScreen.dart';
+import 'package:border_radius_previewer/pages/tabs/RadiusInfoScreen.dart';
 import 'package:bottom_navy_bar/bottom_navy_bar.dart';
 import 'package:flutter/material.dart';
 
@@ -39,8 +40,8 @@ class _MyHomePageState extends State<MyHomePage> {
             setState(() => _currentIndex = index);
           },
           children: const <Widget>[
-            MyFirstScreen(),
-            MySecondScreen(),
+            PreviewerScreen(),
+            RadiusInfoScreen(),
           ],
         ),
       ),
@@ -57,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
             icon: Icon(Icons.home),
           ),
           BottomNavyBarItem(
-            title: Text('Something'),
+            title: Text('Radius Info'),
             icon: Icon(Icons.access_alarm),
           ),
         ],

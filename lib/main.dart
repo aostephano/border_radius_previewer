@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 import 'package:provider/provider.dart';
 import 'package:border_radius_previewer/providers/ProviderOne.dart';
-import 'package:border_radius_previewer/providers/ProviderTwo.dart';
 import 'package:border_radius_previewer/pages/MyHomePage.dart';
 
 void main() {
@@ -20,9 +19,6 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(
           create: (context) => ProviderOne(),
         ),
-        ChangeNotifierProvider(
-          create: (context) => ProviderTwo(),
-        )
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
